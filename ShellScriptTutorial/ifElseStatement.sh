@@ -50,3 +50,17 @@ then
 else
    echo "deferent"
 fi
+
+
+param=hey
+
+#Ex elif
+if [[ "hallo" == $param ]]
+then
+   echo "if same"
+elif [[ "hey" == $param ]]
+then
+   echo "elif same"
+else
+   echo "else printed"
+fi
