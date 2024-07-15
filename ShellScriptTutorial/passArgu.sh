@@ -21,3 +21,7 @@ echo $0 $1 $2 $3 '> echo $0 $1 $2 $3'
 
 args=("$@") #insert into array
 echo ${args[0]} ${args[1]} ${args[2]}
+
+
+echo $@ #will print all of data in args
+echo $# #will print count of length array
